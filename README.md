@@ -81,3 +81,26 @@ It is built in Google Sheets, with Apps Script automations running in the backgr
 - **Methods:** Structured prompt engineering, workflow decomposition, rule-based logic
 - **Documentation:** GitHub Markdown (clear instructions and design rationale)
 
+## AI Prompt Engineering Highlights
+
+AI was used as a **design and reasoning partner**, not as a replacement for business logic or automation.
+
+My prompt engineering focused on:
+
+- **Requirement decomposition**
+  - Breaking vague business needs into concrete system rules
+  - Clarifying assumptions (what counts as stock, when inventory changes, edge cases)
+
+- **Command-based prompting**
+  - Using role, task, and constraint structures to guide AI output
+  - Forcing clarity on formulas, logic flow, and script behavior
+
+- **Two-phase prompting (Plan → Execute)**
+  - First prompting AI to analyze the problem and propose a plan
+  - Only then generating formulas, rules, or script logic
+
+- **Validation & self-check prompts**
+  - Instructing AI to re-check outputs against constraints
+  - Catching logical errors before implementation
+
+These techniques allowed me to design a system that is **stable, explainable, and scalable**, rather than trial-and-error driven.
