@@ -104,3 +104,15 @@ My prompt engineering focused on:
   - Catching logical errors before implementation
 
 These techniques allowed me to design a system that is **stable, explainable, and scalable**, rather than trial-and-error driven.
+
+## Results & Impact
+
+As a result of the redesigned system:
+
+- Inventory tracking became more consistent and less dependent on human memory.
+- Daily operations required fewer manual steps, reducing small but frequent errors.
+- Financial visibility improved through clearer summaries and logs.
+- Non-technical users were able to operate the system using guided inputs.
+- The overall workflow became easier to explain, maintain, and scale.
+
+The biggest impact was **predictability**—the system behaves the same way every day, reducing surprises and rework.
