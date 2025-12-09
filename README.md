@@ -72,3 +72,12 @@ It is built in Google Sheets, with Apps Script automations running in the backgr
   - Stable in daily use  
   - Easy enough for non-technical users to operate  
   - Flexible enough to extend in future (e.g., more products, branches, or currencies).
+
+  ## Tech Stack & Tools
+
+- **Large Language Model:** ChatGPT (used as a design, analysis, and validation assistant)
+- **Spreadsheet Platform:** Google Sheets / Excel
+- **Automation:** Google Apps Script (time-based triggers, safety checks)
+- **Methods:** Structured prompt engineering, workflow decomposition, rule-based logic
+- **Documentation:** GitHub Markdown (clear instructions and design rationale)
+
