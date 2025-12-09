@@ -116,3 +116,15 @@ As a result of the redesigned system:
 - The overall workflow became easier to explain, maintain, and scale.
 
 The biggest impact was **predictability**—the system behaves the same way every day, reducing surprises and rework.
+
+## Future Improvements
+
+If this system were to be extended further, the next improvements would include:
+
+- Additional automation for exception handling (e.g., unusual stock adjustments).
+- More structured AI-assisted validation for edge cases as the system scales.
+- Clear versioning and change logs as more users interact with the system.
+- Optional integration with lightweight front-end tools for easier input.
+
+These improvements would follow the same disciplined approach:
+**clear requirements → structured prompts → controlled implementation**.
