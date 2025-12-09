@@ -29,3 +29,46 @@ I designed an AI-assisted inventory and finance tracker that turns messy, manual
 - Used structured prompts with ChatGPT to design the schema, formulas, and edge-case rules (returns, damaged items, stock transfers).
 - Added Google Apps Script automation (daily triggers and safety checks) so users can log sales, update stock, and generate summaries with minimal manual steps.
 - Documented the system so non-technical users can operate it with clear instructions instead of needing to understand the formulas or code.
+
+## How It Works (System Overview)
+
+This project is an AI-assisted inventory and finance system designed for a real small business use case.  
+It is built in Google Sheets, with Apps Script automations running in the background.
+
+### Core workflow
+
+1. **Data entry by non-technical users**
+   - Team members only need to interact with simple input areas (dropdowns, protected ranges, and guided fields).
+   - Common actions: adding new items, logging sales, updating stock movement, and recording expenses.
+
+2. **Automated calculations & logic**
+   - Stock levels are updated automatically when a sale or movement is logged.
+   - Separate views for:
+     - Current stock on hand  
+     - Items in transit or reserved  
+     - Historical transaction logs
+   - Financial summaries (revenue, cost, profit) are calculated based on the latest data.
+
+3. **Apps Script automations**
+   - Time-based triggers (for example, daily) clean up or reset specific sheets safely.
+   - Safety checks are built in to avoid accidental overwrites or data loss.
+   - The system was iteratively tested using “mock days” to simulate real operations and patch hidden bugs.
+
+4. **Dashboard / manager view**
+   - A summarized view lets the owner quickly see:
+     - Inventory health
+     - Daily / weekly performance
+     - Key red flags (e.g., low stock or missing entries)
+   - This reduces manual checking and allows faster decisions.
+
+### My role in the system design
+
+- Translated a **messy real-world workflow** into a structured, automated system.
+- Used **AI (ChatGPT) as a pair-designer**:
+  - Broke down requirements into clear steps.
+  - Designed the data model (tabs, columns, relationships).
+  - Specified the behavior of each Apps Script function and trigger in detail.
+- Iterated through multiple versions until the system became:
+  - Stable in daily use  
+  - Easy enough for non-technical users to operate  
+  - Flexible enough to extend in future (e.g., more products, branches, or currencies).
